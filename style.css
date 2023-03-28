@@ -1,38 +1,44 @@
-body{
-  padding:0;
-  margin: 0;
-  background-color: beige;
-}
 nav{
-  background:linear-gradient(290deg, #0062cc, #00f3ff) ;
-}
-
-nav #logo{
-  width: 75px;
-  height: 75px;
-  margin-right: 10px;
-  border-radius: 50%;
-}
-
-.navbar-collapse{
-  flex-direction: row-reverse;}
-nav .nav-link {
-    color: #556b81;
-}
-.container{
-  margin-top: 150px;
-}
-.container .card{
-  background:linear-gradient(290deg, #0062cc, #00f3ff) ;
-  width: 200px;
-  height: 200px;
-  align-items: center;
+    background:linear-gradient(290deg, #0062cc, #00f3ff) ;
+  }
   
-}
-.container .card h1{
- margin-top: 23%;
-
-}
-/* style="background-image: url(images/bath.svg)" */
-
-
+  nav #logo{
+    width: 170px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  h2{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .mar-top{
+    align-items: center;
+    margin-top: 100px;
+   
+  }
+  .mt{
+    margin-top: 200px;
+    align-items: center;
+  }
+  .brd{
+    height: 100px;
+    border-radius: 10px;
+    align-items: center;
+  }
+  .brd a{
+    text-decoration: none;
+    color: black;
+  }
+  .brd a:hover{
+    text-decoration: none;
+    color: rgb(175, 172, 170);
+  }
+  .brd h3{
+    padding-top: 30px;
+    padding-left: 5px;
+  }
+     @media only screen and (max-width: 600px) {
+        .mt {
+            margin-top: 20px;
+        }
+      }
