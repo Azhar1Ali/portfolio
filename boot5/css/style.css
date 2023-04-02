@@ -9,7 +9,7 @@
 }
 
 .carousel-item img{
-    width: 100%;
+    width:fit-content;
     height: 91.6vh;
 }
 .contactus img{
@@ -34,7 +34,14 @@
 border-right: none;    }
 .sectioinimage1{
     border-right: none;    }
+
+    .imgsiz img{
+        height: 70vh;
+    }
   }
+
+
+  
 
 
   /* external content */
